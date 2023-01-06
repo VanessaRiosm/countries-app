@@ -1,0 +1,48 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 210px;
+    align-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.375);
+    border-radius: 15px;
+    border-color: rgba(7, 7, 160, 0.516);
+    height: 275px;
+    background-color: rgba(246, 246, 246, 0.749);
+    margin-top: 10px;
+    box-shadow: 0 0 20px rgba(88, 88, 88, 0.64);
+
+}
+
+.card:hover{
+    background-color: rgba(8, 19, 132, 0.088);
+    
+}
+
+.img{
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 6px;
+    width: 180px;
+    height: 100px;
+
+}
+
+.countryName{
+    position: absolute;
+    color: rgb(9, 9, 9);
+    bottom: 100px;
+
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 200px;
+    height: 290px;
+    align-items: center;
+ }
+

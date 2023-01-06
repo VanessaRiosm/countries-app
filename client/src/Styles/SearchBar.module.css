@@ -1,0 +1,39 @@
+* { box-sizing: border-box }
+
+main{ 
+	display: flex;
+	justify-content: center;
+}
+
+/*esto es para que no se vea el cuadro del borde*/
+input, button {
+	border: none;
+	background: none;
+	outline:0;
+}
+
+button {cursor: pointer}
+
+.SearchBox {
+	display: flex;
+	border-radius: 30px;
+	background-color: rgb(225, 225, 225);
+	height: 40px;
+  margin-top: -8%;
+  margin-bottom: 5px;
+  margin-left: 30px;
+}
+
+::placeholder {
+    color: rgb(101, 100, 100);
+    font-size: 0.90em;
+    font-style: italic;
+  }
+
+  .input{
+    margin: 11px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium';
+  }
+

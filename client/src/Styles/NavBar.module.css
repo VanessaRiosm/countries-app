@@ -1,0 +1,22 @@
+.backgroundImage{
+
+    background-image: url('https://cdn.thecoolist.com/wp-content/uploads/2022/05/Memorial-Day-Quotes.jpeg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(40, 40, 40, 0.64);
+    margin-bottom: 10px;
+}
+
+.image{
+    width: 400px;
+    height: 290px;
+    margin-top: -40px;
+    margin-left: 36%;
+    margin-bottom: 30px;
+    
+}
