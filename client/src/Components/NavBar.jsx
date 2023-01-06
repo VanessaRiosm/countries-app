@@ -6,7 +6,7 @@ function NavBar() {
 
     return (
         <div className={style.backgroundImage}>
-          <img src='http://localhost:3000/image.png' className={style.image}></img>
+          <img src='./image.png' className={style.image}></img>
           <SearchBar/>
         </div>
     );
